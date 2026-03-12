@@ -109,6 +109,11 @@
 
         button.parentNode.innerHTML = '<span class="text-success">İzlendi</span>'
       }
+
+      function removedMovie(button){
+        var listItem = button.parentNode.parentNode;
+        listItem.remove();
+      }
     </script>
 </body>
 </html>
